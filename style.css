@@ -1,0 +1,634 @@
+* {
+   
+    margin:0 ;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+/*header*/
+
+header {
+
+    background-color: rgb(47, 133, 148);
+    height: 70px;
+    
+}
+
+/*button-menu-mobile*/
+
+
+ .menu-nav .menu-hambur {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 0px;
+    margin-bottom: 40px;
+    filter:invert() opacity(0.7);
+    display: none;
+    
+ }
+ 
+ 
+/*header-menu desktopt*/
+
+.menu-header, ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h1 {
+
+    font-size: 25px;
+    color: #fff;
+
+}
+
+nav ul {
+
+    list-style: none;
+    
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    
+}
+
+/*button-nav*/
+
+.download  {
+
+    width: 120px;
+    height: 35px;
+    background-color: rgb(175, 8, 8);
+    color: #fff;
+    border:none;
+    border-radius:20px ;
+
+}
+
+.download:hover {
+
+    background-color: rgb(238, 51, 51);
+    cursor: pointer;
+
+}
+
+/*body*/
+
+/*main-presentacion*/
+
+.container-pres {
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+
+}
+
+.presentacion {
+
+    height: 350px;
+    width: 750px; ;
+    
+}
+
+
+img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 60px;
+    margin-left:40%;
+
+}
+
+.presentacion p {
+
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(54, 53, 53);
+    line-height: 25px;
+
+}
+
+.presentacion p span {
+
+    color: blue;  
+
+}
+
+.button-hire {
+
+    margin-top: 30px;
+    margin-left: 45%;
+    border: 2px solid rgb(47, 133, 148);
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    color:rgb(47, 133, 148); 
+    
+}
+
+
+/*main-experiencia-laboral */
+
+h2 {
+
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px; 
+    padding-bottom: 60px;
+
+}
+
+.experiencia-laboral {
+
+    width:670px;
+    margin-left: 26%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.experiencia-laboral .profesion { 
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.experiencia-laboral p {
+    
+    color: rgb(112, 110, 110);
+    line-height: 25px;
+
+}
+
+
+.empresa p { 
+    
+    background-color: rgb(47, 133, 148);
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    padding: 3px 3px;
+    color: #fff;
+    border-radius:50px;
+    margin:10px  0 10px 0 ;
+    
+}
+
+
+.hr1 hr{
+    
+    width: 725px;
+    margin-top: 90px;
+    margin-left: 23%;
+    border:none;
+    height: 1px;
+    background-color: rgb(230, 230, 236) ;
+}
+
+hr {
+    
+    margin-top: 0px;
+    width:675px ;
+    border:none;
+    height: 1px;
+    background-color: rgb(230, 230, 236);
+    margin-left:25% ;
+    
+}
+
+/*main-educacion*/
+
+h3 { 
+    
+
+    font-size: 22px; 
+
+}
+
+
+.educacion {
+
+    width:670px;
+    margin-left: 26%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.educacion .institucion  { 
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.educacion p {
+
+    color: rgb(112, 110, 110);
+    line-height: 25px;
+
+}
+
+ .titulo p { 
+    background-color: rgb(194, 23, 23);
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    padding: 3px 3px;
+    color: #fff;
+    border-radius:50px;
+    margin:10px  0 10px 0 ;
+    
+}
+
+/*main-Habilidades-contacto*/
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.habilidades h3 {
+    padding-bottom: 20px; 
+    font-size: 25px;
+}
+
+.habilidades .cont-habilidades {
+
+    width: 240px;
+    height: 170px;
+    border-style: 2px solid black;   
+    background-color: rgb(172, 241, 218);
+    padding: 30px 40px;
+    margin-right: 25px ;
+
+}
+
+.habilidades .cont-contacto {
+
+    width: 240px;
+    height: 170px;
+    border-style: 2px solid black;
+    background-color: rgb(172, 241, 218);
+    padding: 30px 40px;
+    
+}
+
+
+.cont-contacto{ 
+
+    line-height: 30px;
+
+}
+ 
+.habilidades i {
+
+    margin-right: 10px;
+    color: rgb(94, 91, 91);
+}
+
+progress {
+
+     width: 250px;
+     height: 10px;
+    
+ }
+     
+
+/*main-hobbies*/
+
+.hobbies {
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.parrafo-hobbies {
+
+    max-width: 600px;
+    
+    
+}
+
+.parrafo-hobbies p {
+
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 20px;
+    color:rgb(112, 110, 110); 
+    line-height: 25px;
+}
+
+
+
+/*footer*/
+
+footer {
+
+    height: 100px;
+    font-size: 30px; 
+    text-align: center;
+
+}
+
+footer hr {
+
+    margin:0;
+    width: 100%;
+    
+}
+
+
+/*footer icons*/
+
+footer i { margin-top: 30px; }
+
+.fa-brands.fa-facebook {color: rgb(31, 31, 206);}
+
+.fa-brands.fa-instagram-square { color: rgb(188, 34, 219);}
+
+.fa-brands.fa-twitter-square { color: rgb(42, 215, 228);}
+
+/*media tablet*/
+
+@media (max-width:768px){ 
+   
+   
+   
+/*main*/
+
+.presentacion{ 
+    max-width:80% ;
+
+    
+}
+
+.experiencia-laboral {
+          
+    margin-left: 35px;
+    
+}   
+
+.hr1 hr {
+        
+    margin-left: 23px;
+
+
+    }
+
+hr  {
+        
+    margin-left:  30px;
+
+} 
+
+.educacion{
+        
+    margin-left: 35px;
+    
+    } 
+}
+
+/*media mobile*/
+
+@media (max-width:525px) { 
+
+   /*header*/ 
+    
+.menu-header {
+        
+    width: 745px;
+}
+    
+.menu-nav .menu-hambur{
+    
+    display: block;
+    
+} 
+/*body*/
+
+body {width:100vh;}
+
+/*main*/
+    
+main  { 
+    
+    width: 700px;
+
+}
+/*presentacion-main*/
+
+.presentacion{
+
+    width: 800px;
+    height: 500px;
+
+}
+.presentacion p {
+
+     line-height: 30px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.hr1 hr { 
+
+    width: 710px;
+
+}  
+
+.container-pres { 
+    
+    width: 750px;
+    height: 400px;
+
+}
+    
+.button-hire {
+
+        width: 120px;
+        height: 35px;
+        border: 3px solid;
+        margin-top: 30px;
+        margin-left: 37%;
+    
+}
+    
+.button-hire b {
+        
+        font-size: 25px;
+    
+}
+    
+/*esperiencia-laboral*/
+
+.profesion h3 {
+
+    font-size: 28px;
+
+}
+
+.empresa p {
+
+    width:140px ;
+    font-size: 20px;
+
+}
+
+ .profesion p {
+     
+    font-size:22px ;
+
+}
+
+     /*educacion*/  
+     
+h2 { font-size: 40px;}
+
+
+.institucion h3 {
+
+    font-size: 28px;
+
+}
+.titulo p {
+
+    width: 140px;
+    font-size: 20px;
+
+}
+     
+.descripcion p {
+         
+    font-size:22px; 
+    
+}
+
+.institucion p { 
+
+    font-size: 22px;
+
+}
+
+
+/*habilidades*/
+
+.habilidades {
+
+    
+    flex-direction: column;
+    margin-left: 150px;
+
+
+}
+.habilidades .cont-habilidades {
+    
+    width: 400px;
+    height: 250px;
+
+}
+
+.habilidades .cont-contacto {
+    
+    width: 400px;
+    height: 250px;
+
+}
+
+.cont-habilidades h4 {
+
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 25px;
+
+}
+.cont-habilidades h3 {
+    
+    font-size: 30px;
+
+}
+
+progress {
+
+    width: 350px;
+
+}
+
+/*contacto*/
+
+.cont-contacto{
+   
+    margin-top: 50px;
+
+}
+.cont-contacto div {
+
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+.cont-contacto h3 {
+
+    font-size:30px ;
+
+}
+
+/*hobbies*/
+
+.hobbies {
+    
+    width: 750px;
+
+}
+
+.hobbies h2 {
+
+    font-size: 40px;
+
+}
+
+.parrafo-hobbies p {
+
+    font-size:30px;
+    line-height:35px;
+
+}
+
+/*footer*/
+        
+.iconos-footer {
+    
+    padding-left: 250px;
+   
+} 
+
+footer hr {
+
+    width: 740px;
+
+}
+
+}  
+
+/*fin :)*/
+
